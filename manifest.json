@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Github Code",
+    "version": "1.0.0",
+    "description": "Open any github repository or specific file in github codespace.",
+    "short_name": "Github Code",
+    "permissions": [
+        "activeTab",
+        "declarativeContent"
+    ],
+    "host_permissions": [
+        "https://github.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icons/ico-16.png",
+        "48": "icons/ico-48.png",
+        "128": "icons/ico-128.png"
+    },
+    "action": {
+        "default_title": "Open in code editor",
+        "default_icon": {
+            "16": "icons/ico-16.png",
+            "32": "icons/ico-32.png"
+        }
+    }
+}
