@@ -4,7 +4,7 @@ A chrome extension to open currently open Github repo in a nice internal code ed
 
 ## Installation
 
-1. Download the latest extension zip from [releases](/releases/) tab.
+1. Download the latest extension zip from [releases](https://github.com/sh-sabbir/github-code/releases/latest) tab.
 2. Unzip the file and move to a suitable place
 2. Now on Chrome, open the Extension Management page by navigating to `chrome://extensions`.
     - Alternatively, open this page by clicking on the Extensions menu button and selecting Manage Extensions at the bottom of the menu.
